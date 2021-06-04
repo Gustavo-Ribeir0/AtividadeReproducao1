@@ -1,0 +1,90 @@
+#page {
+  box-shadow: 0 0 10px rgb(189, 189, 189);
+    display: grid;
+    margin: 50px auto;
+    width: 50%;
+    grid-template-areas: "head head"
+                         "nav  main";
+  }
+  #page > header {
+    padding: 30px;
+    border-radius: 5px 5px 0 0;
+    grid-area: head;
+    background-color: white;
+}
+  
+  #page > nav {
+    border-radius: 0 0 0 5px;
+    padding: 30px;
+    grid-area: nav;
+    background-color: hsl(179, 62%, 43%)
+  }
+  
+  #page > main {
+    border-radius: 0 0 5px 0;
+    padding: 30px;
+    grid-area: main;
+    background-color: hsl(179, 62%, 49%)
+  }
+
+  header h3{
+  color: hsl(179, 62%, 49%)
+  }
+
+  header h4{
+  font-size: 17px;
+  font-weight: 800;
+  color: rgb(215, 228, 96);
+  }
+
+  header p {
+  width:  520px;
+  color: rgb(187, 187, 187);
+  font-weight: 700;
+  }
+
+  nav h3{
+  color: white;
+  }
+
+  .valor{
+  font-size: 30px;
+  color: white;
+  margin-right: 15px;
+  }
+
+  .valorSubTitulo{
+  color: rgb(216, 216, 216);
+  }
+
+  nav p {
+  color: white;
+  }
+
+  nav button{
+  color: white;
+  background-color: rgba(176, 240, 0, 0.808);
+  width: 90%;
+  height: 40px;
+  border: 0;
+  border-radius: 5px;
+  font-weight: 700;
+  }
+
+  main h3{
+  color: white;
+  }
+
+  main p {
+  width: 250px;
+  color: white;
+  }
+
+  body{
+  background-color: red;
+  }
+
+  html{
+  background-color: blue !important;
+  }
+
